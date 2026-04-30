@@ -122,28 +122,7 @@ Enter file/directory to remove: test
 Removed directory: test
 ```
 
-### 🔹 cd (invalid path)
-
-```bash
-================================
- UNIX Command Simulator (Windows)
- Current Dir: C:\Users\anmol\CLionProjects\untitled\cmake-build-debug
-================================
-1. pwd
-2. ls
-3. mkdir
-4. rm
-5. cd
-6. exit
---------------------------------
-Enter your choice: 5
-
-Enter directory path: \\testdir
-
-cd: No such file or directory
-```
-
-### 🔹 cd (valid path)
+### 🔹 cd
 
 ```bash
 ================================
@@ -175,12 +154,6 @@ Changed directory to: testdir
 6. exit
 --------------------------------
 Enter your choice:
-```
-
-### 🔹 invalid input
-
-```bash
-Invalid choice. Please enter 1-6.
 ```
 
 ### 🔹 exit
